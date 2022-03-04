@@ -1,0 +1,23 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "505 Nashville",
+            "addressStreet": "505 Church Street Nashville, TN",
+            "location": {
+                "lat": 36.16284268539109,
+                "lng": -86.78035186190702
+            },
+            "type": "Multifamily"
+        },
+        {
+            "id": 2,
+            "name": "Nashville Home",
+            "addressStreet": "115 Middleton Street, Nashville, TN",
+            "location": {
+                "lat": 36.156143529729356,
+                "lng": -86.76643300254611
+            }
+        }
+    ]
+}
