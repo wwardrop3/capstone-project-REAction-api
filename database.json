@@ -3,21 +3,22 @@
         {
             "id": 1,
             "name": "505 Nashville",
-            "addressStreet": "505 Church Street Nashville, TN",
+            "addressStreet": "505 Church Street",
             "location": {
                 "lat": 36.16284268539109,
                 "lng": -86.78035186190702
             },
-            "type": "Multifamily"
+            "type": "multifamily"
         },
         {
             "id": 2,
-            "name": "Nashville Home",
-            "addressStreet": "115 Middleton Street, Nashville, TN",
+            "name": "Terra House",
+            "addressStreet": "115 Middleton Street",
             "location": {
-                "lat": 36.156143529729356,
-                "lng": -86.76643300254611
-            }
+                "lat": 36.156198450502025,
+                "lng": -86.7666997073952
+            },
+            "type": "multifamily"
         }
     ]
 }
