@@ -20,5 +20,112 @@
             },
             "type": "multifamily"
         }
+    ],
+    "users": [
+        {
+            "id":"",
+            "firstName": "",
+            "lastName": "",
+            "emailAddress":""
+        }
+    ],
+    "properties":[
+        {
+            "id": "",
+            "name": "",
+            "userId": "",
+            "addressStreet": "",
+            "addressId": "",
+            "addressStateId": "",
+            "addressZipCode": "",
+            "addressNeighborhoodId":"",
+            "avgSF": "",
+            "avgRent": "",
+            "developerId": "",
+            "managementId": "",
+            "totalSF": "",
+            "stories": "",
+            "imageURL": "",
+            "propertyTypeId": "",
+            "industryId":""
+
+        }
+    ],
+    "industries": [
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "projectTypes":[
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "states": [
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "cities": [
+        {
+            "id": "",
+            "name": "",
+            "stateId": ""
+        }
+    ],
+    "neighborhoods": [
+        {
+            "id": "",
+            "name": "",
+            "cityId": ""
+        }
+    ],
+    "managementCompanies":[
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "propertyDevelopers":[
+        {
+            "id": "",
+            "name": "",
+            "propertyId": "",
+            "developerId": ""
+        }
+    ],
+    "developers": [
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "tenants": [
+        {
+            "id": "",
+            "name": ""
+        }
+    ],
+    "propertyTenants": [
+        {
+            "id": "",
+            "propertyId": "",
+            "tenantId": ""
+        }
+    ],
+    "statuses":[
+        {
+            "id": "",
+            "name":""
+        }
+    ],
+    "randomSiteImages": [
+        {
+            "id": "",
+            "url": ""
+        }
     ]
 }
