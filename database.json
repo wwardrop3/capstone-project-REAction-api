@@ -1,131 +1,305 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "name": "505 Nashville",
-            "addressStreet": "505 Church Street",
-            "location": {
-                "lat": 36.16284268539109,
-                "lng": -86.78035186190702
-            },
-            "type": "multifamily"
-        },
-        {
-            "id": 2,
-            "name": "Terra House",
-            "addressStreet": "115 Middleton Street",
-            "location": {
-                "lat": 36.156198450502025,
-                "lng": -86.7666997073952
-            },
-            "type": "multifamily"
-        }
-    ],
-    "users": [
-        {
-            "id":"",
-            "firstName": "",
-            "lastName": "",
-            "emailAddress":""
-        }
-    ],
-    "properties":[
-        {
-            "id": "",
-            "name": "",
-            "userId": "",
-            "addressStreet": "",
-            "addressId": "",
-            "addressStateId": "",
-            "addressZipCode": "",
-            "addressNeighborhoodId":"",
-            "avgSF": "",
-            "avgRent": "",
-            "developerId": "",
-            "managementId": "",
-            "totalSF": "",
-            "stories": "",
-            "imageURL": "",
-            "propertyTypeId": "",
-            "industryId":""
-
-        }
-    ],
-    "industries": [
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "projectTypes":[
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "states": [
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "cities": [
-        {
-            "id": "",
-            "name": "",
-            "stateId": ""
-        }
-    ],
-    "neighborhoods": [
-        {
-            "id": "",
-            "name": "",
-            "cityId": ""
-        }
-    ],
-    "managementCompanies":[
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "propertyDevelopers":[
-        {
-            "id": "",
-            "name": "",
-            "propertyId": "",
-            "developerId": ""
-        }
-    ],
-    "developers": [
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "tenants": [
-        {
-            "id": "",
-            "name": ""
-        }
-    ],
-    "propertyTenants": [
-        {
-            "id": "",
-            "propertyId": "",
-            "tenantId": ""
-        }
-    ],
-    "statuses":[
-        {
-            "id": "",
-            "name":""
-        }
-    ],
-    "randomSiteImages": [
-        {
-            "id": "",
-            "url": ""
-        }
-    ]
+  "locations": [
+    {
+      "id": 1,
+      "name": "505 Nashville",
+      "addressStreet": "505 Church Street",
+      "location": {
+        "lat": 36.16284268539109,
+        "lng": -86.78035186190702
+      },
+      "type": "multifamily"
+    },
+    {
+      "id": 2,
+      "name": "Terra House",
+      "addressStreet": "115 Middleton Street",
+      "location": {
+        "lat": 36.156198450502025,
+        "lng": -86.7666997073952
+      },
+      "type": "multifamily"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Will Wardrop",
+      "address": "115 Middleton Street, 352",
+      "email": "wwardrop@gmail.com"
+    },
+    {
+      "name": "John Smith",
+      "address": "115 Middleton Street, 352",
+      "email": "jsmith@gmail.com",
+      "id": 2
+    }
+  ],
+  "properties": [
+    {
+      "name": "Terra House",
+      "userId": 1,
+      "street": "115 Middleton Street",
+      "stateId": 1,
+      "cityId": 1,
+      "neighborhoodId": 4,
+      "zipCode": "37210",
+      "avgSF": "N.A",
+      "avgRent": "N.A",
+      "developer": 0,
+      "management": 0,
+      "totalSF": "N.A",
+      "stories": "N.A",
+      "imageURL": "https://img.ctykit.com/cdn/tn-nashville/images/tr:w-1800/03-terrahouse.jpg",
+      "typeId": 1,
+      "industry": "N.A",
+      "statusId": 3,
+      "occupancy": "",
+      "id": 1
+    },
+    {
+      "name": "505",
+      "userId": 1,
+      "street": "505 Church Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 1,
+      "avgSF": "N.A",
+      "avgRent": "N.A",
+      "developer": 0,
+      "management": 0,
+      "totalSF": "N.A",
+      "stories": "N.A",
+      "imageURL": "https://images1.apartments.com/i2/Jr1emLIK509f9dqtfvwTBx3t6TLh_Xs1xklVS1CJp8o/111/505-nashville-nashville-tn-primary-photo.jpg",
+      "typeId": 1,
+      "industry": "N.A",
+      "statusId": 3,
+      "occupancy": "",
+      "id": 2
+    },
+    {
+      "name": "River House",
+      "userId": 2,
+      "street": "115 Middleton Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 4,
+      "avgSF": "600",
+      "avgRent": "1400",
+      "developer": "GBT",
+      "management": "GBT",
+      "totalSF": "N.A",
+      "stories": "N.A",
+      "imageURL": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2018/04/River-House-Nashville-142-1024x683.jpg",
+      "typeId": 1,
+      "industry": "N.A",
+      "statusId": 3,
+      "occupancy": "90",
+      "units": "250",
+      "id": 3
+    },
+    {
+      "name": "One22One",
+      "userId": 1,
+      "street": "1221 Broadway Avenue",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 1,
+      "avgSF": "27",
+      "avgRent": "30",
+      "developer": "GBT",
+      "management": "GBT",
+      "totalSF": "N.A",
+      "stories": "N.A",
+      "imageURL": "https://1mo72630r0z5bojhw3shc96x-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/20190925_ONE22ONE_RENDERINGS-3.jpg",
+      "typeId": 2,
+      "industry": "N.A",
+      "statusId": 1,
+      "occupancy": "0",
+      "units": "300000",
+      "id": 4
+    },
+    {
+      "name": "Nashville Scrap Yard",
+      "userId": 1,
+      "street": "123 Main Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 3,
+      "avgSF": "Metals Company",
+      "avgRent": "20",
+      "developer": "Nashville Commerce",
+      "management": "Nashville Management",
+      "totalSF": "12000000",
+      "stories": "N.A",
+      "imageURL": "https://media.bizj.us/view/img/11968106/psc-metals-02*750xx6016-3384-0-316.jpg",
+      "typeId": 3,
+      "industry": "0",
+      "statusId": 2,
+      "occupancy": "",
+      "id": 5
+    },
+    {
+      "name": "5th and Broad",
+      "userId": 1,
+      "street": "N.A",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 4,
+      "avgSF": "N.A",
+      "avgRent": "N.A",
+      "developer": "",
+      "management": "",
+      "totalSF": "N.A",
+      "stories": "N.A",
+      "imageURL": "https://www.pngitem.com/pimgs/m/475-4750674_multi-storied-building-commercial-building-icon-png-transparent.png",
+      "typeId": 2,
+      "industry": "N.A",
+      "statusId": 3,
+      "occupancy": "",
+      "id": 7
+    }
+  ],
+  "industries": [
+    {
+      "id": "",
+      "name": ""
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Multifamily"
+    },
+    {
+      "id": 2,
+      "name": "Office"
+    },
+    {
+      "id": 3,
+      "name": "Industrial"
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Tennessee"
+    },
+    {
+      "id": 2,
+      "name": "Illinois"
+    },
+    {
+      "id": 3,
+      "name": "Georgia"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Nashville",
+      "stateId": 1
+    },
+    {
+      "id": 2,
+      "name": "Chicago",
+      "stateId": 2
+    },
+    {
+      "id": 3,
+      "name": "Atlanta",
+      "stateId": 3
+    },
+    {
+      "id": 4,
+      "name": "Memphis",
+      "stateId": 1
+    }
+  ],
+  "neighborhoods": [
+    {
+      "id": 1,
+      "name": "Downtown Nashville",
+      "cityId": 1
+    },
+    {
+      "id": 2,
+      "name": "Gulch",
+      "cityId": 1
+    },
+    {
+      "id": 3,
+      "name": "East Nashville",
+      "cityId": 1
+    },
+    {
+      "id": 4,
+      "name": "Sobro",
+      "cityId": 1
+    },
+    {
+      "id": 5,
+      "name": "Downtown Chicago",
+      "cityId": 2
+    },
+    {
+      "id": 6,
+      "name": "Downtown Atlanta",
+      "cityId": 3
+    },
+    {
+      "id": 7,
+      "name": "East Atlanta",
+      "cityId": 3
+    },
+    {
+      "id": 8,
+      "name": "South Chicago",
+      "cityId": 2
+    }
+  ],
+  "tenants": [
+    {
+      "id": "",
+      "name": ""
+    }
+  ],
+  "propertyTenants": [],
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Under Construction"
+    },
+    {
+      "id": 2,
+      "name": "Planned"
+    },
+    {
+      "id": 3,
+      "name": "Completed"
+    },
+    {
+      "id": 4,
+      "name": "Speculative"
+    }
+  ],
+  "randomSiteImages": [
+    {
+      "id": 1,
+      "imageUrl": "https://www.fortunebuilders.com/wp-content/uploads/2017/09/commercial-real-estate-property-800x533.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.avisonyoung.us/documents/92392/127818/Nashville-ThinkstockPhotos-588588926.jpg/7b7ac376-bcce-443c-8926-397b1a2aac6a?t=1491942118000"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.mashvisor.com/blog/wp-content/uploads/2019/07/7-Things-You-Need-to-Know-About-Commercial-Real-Estate.jpg"
+    }
+  ]
 }
