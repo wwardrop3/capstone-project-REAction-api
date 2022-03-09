@@ -55,7 +55,25 @@
       "industry": "N.A",
       "statusId": 3,
       "occupancy": "",
-      "id": 1
+      "id": 1,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 4,
+        "name": "Sobro",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      }
     },
     {
       "name": "505",
@@ -163,6 +181,28 @@
       "statusId": 3,
       "occupancy": "",
       "id": 7
+    },
+    {
+      "name": "1200 Broadway",
+      "userId": 1,
+      "street": "115 Middleton Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 1,
+      "avgSF": "Revenent Theraputics, Sony",
+      "avgRent": "40",
+      "developer": "Big Time",
+      "management": "Management Co",
+      "totalSF": "900000",
+      "stories": "No Information",
+      "imageURL": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2020/01/1200-Broadway-Nashville-1024x682.jpg",
+      "typeId": 1,
+      "industry": "No Information",
+      "statusId": 1,
+      "occupancy": "No Information",
+      "industryId": "90",
+      "id": 8
     }
   ],
   "industries": [
