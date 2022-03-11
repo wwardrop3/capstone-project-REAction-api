@@ -1,455 +1,158 @@
 {
-  "locations": [
-    {
-      "id": 1,
-      "name": "505 Nashville",
-      "addressStreet": "505 Church Street",
-      "location": {
-        "lat": 36.16284268539109,
-        "lng": -86.78035186190702
-      },
-      "type": "multifamily"
-    },
-    {
-      "id": 2,
-      "name": "Terra House",
-      "addressStreet": "115 Middleton Street",
-      "location": {
-        "lat": 36.156198450502025,
-        "lng": -86.7666997073952
-      },
-      "type": "multifamily"
-    }
-  ],
   "users": [
     {
-      "id": 1,
-      "fullName": "Will Wardrop",
+      "name": "Will Wardrop",
       "address": "115 Middleton Street, 352",
-      "email": "wwardrop@gmail.com"
-    },
-    {
-      "name": "John Smith",
-      "address": "115 Middleton Street, 352",
-      "email": "jsmith@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "Charlie Fox ",
-      "address": "115 Middleton Street, 352",
-      "email": "cfox@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "Bob Fox",
-      "address": "115 Middleton Street, 352",
-      "email": "bfox@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "John Brown",
-      "address": "115 Middleton Street, 352",
-      "email": "jbrown@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "Will Smith",
-      "address": "115 Middleton Street, 352",
-      "email": "wsmith@gmail.com",
-      "id": 6
-    },
-    {
-      "name": "Bill Smith",
-      "address": "115 Middleton Street, 352",
-      "email": "bsmith@gmail.com",
-      "id": 7
+      "email": "wwardrop@gmail.com",
+      "id": 1
     }
   ],
   "properties": [
     {
-      "name": "River House UPDATED",
-      "userId": 2,
+      "name": "Terea",
+      "userId": 1,
       "street": "115 Middleton Street",
       "stateId": 1,
       "cityId": 1,
       "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "600",
-      "avgRent": "1400",
-      "developer": "GBT",
-      "management": "GBT",
-      "totalSF": "N.A",
-      "stories": "N.A",
-      "imageURL": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2018/04/River-House-Nashville-142-1024x683.jpg",
-      "typeId": 1,
-      "industry": "N.A",
-      "statusId": 3,
-      "occupancy": "90",
-      "units": "250",
-      "id": 3,
-      "type": {
-        "id": 1,
-        "name": "Multifamily"
-      },
-      "neighborhood": {
-        "id": 4,
-        "name": "Sobro",
-        "cityId": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
-      },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      }
-    },
-    {
-      "name": "One22One",
-      "userId": 1,
-      "street": "1221 Broadway Avenue",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 1,
-      "avgSF": "27",
-      "avgRent": "30",
-      "developer": "GBT",
-      "management": "GBT",
-      "totalSF": "N.A",
-      "stories": "2",
-      "imageURL": "https://1mo72630r0z5bojhw3shc96x-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/20190925_ONE22ONE_RENDERINGS-3.jpg",
-      "typeId": 2,
-      "industry": "N.A",
-      "statusId": 1,
-      "occupancy": "0",
-      "units": "300000",
-      "id": 4,
-      "type": {
-        "id": 2,
-        "name": "Office"
-      },
-      "neighborhood": {
-        "id": 1,
-        "name": "Downtown Nashville",
-        "cityId": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
-      },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      },
-      "status": {
-        "id": 1,
-        "name": "Under Construction"
-      }
-    },
-    {
-      "name": "5th and Broadfsdf",
-      "userId": 1,
-      "street": "N.A",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "N.A",
-      "avgRent": "N.A",
-      "developer": "",
-      "management": "",
-      "totalSF": "N.A",
-      "stories": "N.A",
-      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
-      "typeId": 2,
-      "industry": "N.A",
-      "statusId": 3,
-      "occupancy": "",
-      "id": 7,
-      "type": {
-        "id": 2,
-        "name": "Office"
-      },
-      "neighborhood": {
-        "id": 4,
-        "name": "Sobro",
-        "cityId": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
-      },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      },
-      "status": {
-        "id": 3,
-        "name": "Completed"
-      }
-    },
-    {
-      "name": "222 2nd Avenue UPDATED",
-      "userId": 2,
-      "street": "222 2nd Avenue",
-      "stateId": 2,
-      "cityId": 2,
-      "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "No Information",
-      "avgRent": "50",
-      "developer": "Hines",
-      "management": "Hines",
-      "totalSF": "400000",
-      "stories": "20",
-      "imageURL": "https://1mo72630r0z5bojhw3shc96x-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/40502_00_N37_medium1.jpg",
-      "typeId": 2,
-      "industry": "No Information",
-      "statusId": 3,
-      "occupancy": "90",
-      "id": 10,
-      "type": {
-        "id": 2,
-        "name": "Office"
-      },
-      "neighborhood": {
-        "id": 4,
-        "name": "Sobro",
-        "cityId": 1
-      },
-      "state": {
-        "id": 2,
-        "name": "Illinois"
-      },
-      "city": {
-        "id": 2,
-        "name": "Chicago",
-        "stateId": 2
-      }
-    },
-    {
-      "name": "1200 Broadway",
-      "userId": 1,
-      "street": "Broadway Avenue update ",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 1,
-      "avgSF": "-1",
-      "avgRent": "0",
-      "developer": "asdfasdfsaf",
-      "management": "Hines",
-      "totalSF": "No Information",
-      "stories": "No Information",
-      "imageURL": "https://www.turnerconstruction.com/Files/ProjectImage?url=%2Fsites%2Fmarketingstories%2FMarketing%2520Story%2520Images%2Foriginal.e43ddd0e-b059-447a-b550-9bc3e7a36e3a.jpg&width=707&height=470&crop=True&jpegQuality=95",
-      "typeId": 1,
-      "industry": "No Information",
-      "statusId": 4,
-      "occupancy": "96",
-      "units": "251",
-      "id": 11,
-      "type": {
-        "id": 1,
-        "name": "Multifamily"
-      },
-      "neighborhood": {
-        "id": 1,
-        "name": "Downtown Nashville",
-        "cityId": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
-      },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      },
-      "status": {
-        "id": 4,
-        "name": "Speculative"
-      }
-    },
-    {
-      "name": "124124",
-      "userId": 4,
-      "street": "115 Middleton Street",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 2,
-      "avgSF": "No Information",
-      "avgRent": "4",
-      "developer": "124124",
-      "management": "12412",
-      "totalSF": "12",
-      "stories": "12",
-      "imageURL": "https://images1.apartments.com/i2/Jr1emLIK509f9dqtfvwTBx3t6TLh_Xs1xklVS1CJp8o/111/505-nashville-nashville-tn-primary-photo.jpg",
-      "typeId": 2,
-      "industry": "No Information",
-      "statusId": 2,
-      "occupancy": "12",
-      "id": 13
-    },
-    {
-      "name": "aaaaaaaaa",
-      "userId": 1,
-      "street": "sdf",
-      "stateId": 1,
-      "cityId": 4,
-      "zipCode": "37210",
-      "neighborhoodId": 9,
-      "avgSF": "No Information",
-      "avgRent": "232",
-      "developer": "No Information",
-      "management": "No Information",
-      "totalSF": "2323",
-      "stories": "2323",
-      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
-      "typeId": 2,
-      "industry": "No Information",
-      "statusId": 1,
-      "occupancy": "2323",
-      "id": 14
-    },
-    {
-      "name": "AMAZON",
-      "userId": 6,
-      "street": "115 Middleton Street",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 1,
+      "neighborhoodId": 0,
       "avgSF": 0,
       "avgRent": 0,
-      "developer": "asdf",
-      "management": "asdfadf",
-      "totalSF": "0233",
-      "stories": 0,
-      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
-      "typeId": 3,
-      "industry": "asdfasdf",
-      "statusId": 2,
-      "occupancy": 0,
-      "tenents": "asdfasd",
-      "avgRentPSF": "1212",
-      "id": 15,
-      "type": {
-        "id": 3,
-        "name": "Industrial"
-      },
-      "neighborhood": {
-        "id": 1,
-        "name": "Downtown Nashville",
-        "cityId": 1
-      },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
-      },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      },
-      "status": {
-        "id": 2,
-        "name": "Planned"
-      }
-    },
-    {
-      "name": "Terra House",
-      "userId": 7,
-      "street": "115 Middleton Street",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "0123",
-      "avgRent": "0123123",
-      "developer": "asdfadsf",
-      "management": "asdfasdf",
+      "developer": "",
+      "management": "",
       "totalSF": 0,
       "stories": 0,
       "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
       "typeId": 1,
       "industry": "",
       "statusId": 1,
-      "occupancy": "6",
-      "units": "5",
-      "id": 16
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1561782,
+        "lng": -86.76643299999999
+      },
+      "id": 1
     },
     {
-      "name": "asdfadsfsd",
-      "userId": 7,
-      "street": "aasdfasdf",
-      "stateId": 1,
-      "cityId": 4,
-      "zipCode": "37210",
-      "neighborhoodId": 10,
-      "avgSF": 0,
-      "avgRent": "234",
-      "developer": "sdfg",
-      "management": "sdfgsd",
-      "totalSF": "23",
-      "stories": "234",
-      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
-      "typeId": 2,
-      "industry": "",
-      "statusId": 2,
-      "occupancy": "2324",
-      "id": 17
-    },
-    {
-      "name": "industry",
-      "userId": 7,
-      "street": "115 Middleton Street",
+      "name": "asdfsdf",
+      "userId": 1,
+      "street": "",
       "stateId": 1,
       "cityId": 1,
       "zipCode": "37210",
-      "neighborhoodId": 1,
+      "neighborhoodId": 0,
       "avgSF": 0,
       "avgRent": 0,
-      "developer": "asdfad",
-      "management": "asdfasdf",
-      "totalSF": "023",
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
+      "typeId": 2,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1626638,
+        "lng": -86.7816016
+      },
+      "id": 6
+    },
+    {
+      "name": "asfdsafdsf",
+      "userId": 1,
+      "street": "",
+      "stateId": 3,
+      "cityId": 3,
+      "zipCode": 0,
+      "neighborhoodId": 0,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
       "stories": 0,
       "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
       "typeId": 3,
-      "industry": "asdfasdf",
+      "industry": "",
       "statusId": 1,
       "occupancy": 0,
-      "tenants": "will",
-      "avgRentPSF": "234",
-      "id": 18,
-      "type": {
-        "id": 3,
-        "name": "Industrial"
+      "id": 7
+    },
+    {
+      "name": "asdfasdf",
+      "userId": 1,
+      "street": "",
+      "stateId": 1,
+      "cityId": 4,
+      "zipCode": 0,
+      "neighborhoodId": 0,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
+      "typeId": 3,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 35.1495343,
+        "lng": -90.0489801
       },
-      "neighborhood": {
-        "id": 1,
-        "name": "Downtown Nashville",
-        "cityId": 1
+      "id": 8
+    },
+    {
+      "name": "Property",
+      "userId": 1,
+      "street": "",
+      "stateId": 2,
+      "cityId": 2,
+      "zipCode": 0,
+      "neighborhoodId": 14,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 0,
+      "occupancy": 0,
+      "location": {
+        "lat": 41.8781136,
+        "lng": -87.6297982
       },
-      "state": {
-        "id": 1,
-        "name": "Tennessee"
+      "id": 9
+    },
+    {
+      "name": "Atlanta Home",
+      "userId": 1,
+      "street": "",
+      "stateId": 3,
+      "cityId": 7,
+      "zipCode": 0,
+      "neighborhoodId": 15,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://media.gettyimages.com/photos/large-multicondos-building-blocks-with-bicycles-lane-picture-id1174752803?s=612x612",
+      "typeId": 2,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 32.8406946,
+        "lng": -83.6324022
       },
-      "city": {
-        "id": 1,
-        "name": "Nashville",
-        "stateId": 1
-      },
-      "status": {
-        "id": 1,
-        "name": "Under Construction"
-      }
+      "id": 10
     }
   ],
   "industries": [
