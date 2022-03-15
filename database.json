@@ -196,6 +196,31 @@
         "id": 1,
         "name": "Under Construction"
       }
+    },
+    {
+      "name": "Asurion HQ",
+      "userId": 1,
+      "street": "1101 Church Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://media.bizj.us/view/img/12113147/asurion-001*1200xx6016-3384-0-316.jpg",
+      "typeId": 2,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1595838,
+        "lng": -86.78811209999999
+      },
+      "id": 7
     }
   ],
   "types": [
@@ -486,6 +511,14 @@
       "completed": false,
       "propertyId": 4,
       "id": 12
+    },
+    {
+      "title": "First Asurion Note",
+      "text": "Task 1",
+      "dueDate": "2022-03-19",
+      "completed": false,
+      "propertyId": 7,
+      "id": 13
     }
   ]
 }
