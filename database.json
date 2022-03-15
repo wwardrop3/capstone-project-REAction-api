@@ -1,174 +1,201 @@
 {
-  "locations": [
-    {
-      "id": 1,
-      "name": "505 Nashville",
-      "addressStreet": "505 Church Street",
-      "location": {
-        "lat": 36.16284268539109,
-        "lng": -86.78035186190702
-      },
-      "type": "multifamily"
-    },
-    {
-      "id": 2,
-      "name": "Terra House",
-      "addressStreet": "115 Middleton Street",
-      "location": {
-        "lat": 36.156198450502025,
-        "lng": -86.7666997073952
-      },
-      "type": "multifamily"
-    }
-  ],
   "users": [
     {
-      "id": 1,
-      "fullName": "Will Wardrop",
+      "name": "Will Wardrop",
       "address": "115 Middleton Street, 352",
-      "email": "wwardrop@gmail.com"
-    },
-    {
-      "name": "John Smith",
-      "address": "115 Middleton Street, 352",
-      "email": "jsmith@gmail.com",
-      "id": 2
+      "email": "wwardrop@gmail.com",
+      "id": 1
     }
   ],
   "properties": [
     {
-      "name": "Terra House",
+      "name": "Terea",
       "userId": 1,
       "street": "115 Middleton Street",
-      "stateId": 1,
-      "cityId": 1,
-      "neighborhoodId": 4,
-      "zipCode": "37210",
-      "avgSF": "N.A",
-      "avgRent": "N.A",
-      "developer": 0,
-      "management": 0,
-      "totalSF": "N.A",
-      "stories": "N.A",
-      "imageURL": "https://img.ctykit.com/cdn/tn-nashville/images/tr:w-1800/03-terrahouse.jpg",
-      "typeId": 1,
-      "industry": "N.A",
-      "statusId": 3,
-      "occupancy": "",
-      "id": 1
-    },
-    {
-      "name": "505",
-      "userId": 1,
-      "street": "505 Church Street",
       "stateId": 1,
       "cityId": 1,
       "zipCode": "37210",
       "neighborhoodId": 1,
-      "avgSF": "N.A",
-      "avgRent": "N.A",
-      "developer": 0,
-      "management": 0,
-      "totalSF": "N.A",
-      "stories": "N.A",
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "",
+      "management": "",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://res.cloudinary.com/apartmentlist/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/2284f7c84b65d3c423d58540e528a0e0.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1561782,
+        "lng": -86.76643299999999
+      },
+      "id": 1,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 1,
+        "name": "Under Construction"
+      }
+    },
+    {
+      "name": "505 Nashville",
+      "userId": 1,
+      "street": "505 Church Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 0,
+      "neighborhoodId": 1,
+      "avgSF": "700",
+      "avgRent": "2200",
+      "developer": "Giarratana",
+      "management": "Giarratana Management",
+      "totalSF": 0,
+      "stories": 0,
       "imageURL": "https://images1.apartments.com/i2/Jr1emLIK509f9dqtfvwTBx3t6TLh_Xs1xklVS1CJp8o/111/505-nashville-nashville-tn-primary-photo.jpg",
       "typeId": 1,
-      "industry": "N.A",
+      "industry": "",
       "statusId": 3,
-      "occupancy": "",
+      "occupancy": "90",
+      "units": "500",
+      "location": {
+        "lat": 36.1628036,
+        "lng": -86.78037250000001
+      },
       "id": 2
     },
     {
-      "name": "River House",
-      "userId": 2,
-      "street": "115 Middleton Street",
+      "name": "SA Recycling",
+      "userId": 1,
+      "street": "301 S 3rd St",
       "stateId": 1,
       "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "600",
-      "avgRent": "1400",
-      "developer": "GBT",
-      "management": "GBT",
-      "totalSF": "N.A",
-      "stories": "N.A",
-      "imageURL": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2018/04/River-House-Nashville-142-1024x683.jpg",
-      "typeId": 1,
-      "industry": "N.A",
-      "statusId": 3,
-      "occupancy": "90",
-      "units": "250",
+      "zipCode": 0,
+      "neighborhoodId": 3,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "SA Recycling",
+      "management": "",
+      "totalSF": "200000",
+      "stories": 0,
+      "imageURL": "https://lh5.googleusercontent.com/p/AF1QipOTh_j1cEYbIcnMftJJdap7KtilmeqYHeiPmZAj=w408-h306-k-no",
+      "typeId": 3,
+      "industry": "Recycling",
+      "statusId": 1,
+      "occupancy": 0,
+      "tenants": "SA Recycling",
+      "location": {
+        "lat": 36.1644123,
+        "lng": -86.7643114
+      },
       "id": 3
     },
     {
       "name": "One22One",
       "userId": 1,
-      "street": "1221 Broadway Avenue",
+      "street": "1221 Broadway",
       "stateId": 1,
       "cityId": 1,
-      "zipCode": "37210",
+      "zipCode": 0,
       "neighborhoodId": 1,
-      "avgSF": "27",
+      "avgSF": 0,
       "avgRent": "30",
-      "developer": "GBT",
-      "management": "GBT",
-      "totalSF": "N.A",
-      "stories": "N.A",
+      "developer": "CBRE",
+      "management": "Hines",
+      "totalSF": "500000",
+      "stories": "40",
       "imageURL": "https://1mo72630r0z5bojhw3shc96x-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/20190925_ONE22ONE_RENDERINGS-3.jpg",
       "typeId": 2,
-      "industry": "N.A",
-      "statusId": 1,
-      "occupancy": "0",
-      "units": "300000",
-      "id": 4
+      "industry": "",
+      "statusId": 4,
+      "occupancy": "40",
+      "location": {
+        "lat": 36.1560129,
+        "lng": -86.78811329999999
+      },
+      "id": 4,
+      "type": {
+        "id": 2,
+        "name": "Office"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 3,
+        "name": "Completed"
+      }
     },
     {
-      "name": "Nashville Scrap Yard",
+      "name": "Knox at MetroCenter",
       "userId": 1,
-      "street": "123 Main Street",
+      "street": "101 Athens way",
       "stateId": 1,
       "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 3,
-      "avgSF": "Metals Company",
-      "avgRent": "20",
-      "developer": "Nashville Commerce",
-      "management": "Nashville Management",
-      "totalSF": "12000000",
-      "stories": "N.A",
-      "imageURL": "https://media.bizj.us/view/img/11968106/psc-metals-02*750xx6016-3384-0-316.jpg",
-      "typeId": 3,
-      "industry": "0",
-      "statusId": 2,
-      "occupancy": "",
-      "id": 5
-    },
-    {
-      "name": "5th and Broad",
-      "userId": 1,
-      "street": "N.A",
-      "stateId": 1,
-      "cityId": 1,
-      "zipCode": "37210",
-      "neighborhoodId": 4,
-      "avgSF": "N.A",
-      "avgRent": "N.A",
+      "zipCode": 0,
+      "neighborhoodId": 1,
+      "avgSF": "600",
+      "avgRent": "1500",
       "developer": "",
       "management": "",
-      "totalSF": "N.A",
-      "stories": "N.A",
-      "imageURL": "https://www.pngitem.com/pimgs/m/475-4750674_multi-storied-building-commercial-building-icon-png-transparent.png",
-      "typeId": 2,
-      "industry": "N.A",
-      "statusId": 3,
-      "occupancy": "",
-      "id": 7
-    }
-  ],
-  "industries": [
-    {
-      "id": "",
-      "name": ""
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://lh5.googleusercontent.com/p/AF1QipM2Zunqp-3aTzg8GlKP_dF7mKdDAdq7c-RxoTTL=w408-h271-k-no",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": "100",
+      "units": "300",
+      "location": {
+        "lat": 36.1983009,
+        "lng": -86.7986588
+      },
+      "id": 5,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 1,
+        "name": "Under Construction"
+      }
     }
   ],
   "types": [
@@ -219,6 +246,21 @@
       "id": 4,
       "name": "Memphis",
       "stateId": 1
+    },
+    {
+      "id": 5,
+      "name": "Naperville",
+      "stateId": 2
+    },
+    {
+      "id": 6,
+      "name": "Peoria",
+      "stateId": 2
+    },
+    {
+      "id": 7,
+      "name": "Macon",
+      "stateId": 3
     }
   ],
   "neighborhoods": [
@@ -261,12 +303,51 @@
       "id": 8,
       "name": "South Chicago",
       "cityId": 2
-    }
-  ],
-  "tenants": [
+    },
     {
-      "id": "",
-      "name": ""
+      "id": 9,
+      "name": "Downtown Memphis",
+      "cityId": 4
+    },
+    {
+      "id": 10,
+      "name": "East Memphis",
+      "cityId": 4
+    },
+    {
+      "id": 11,
+      "name": "Central Peoria",
+      "cityId": 6
+    },
+    {
+      "id": 11,
+      "name": "East Peoria",
+      "cityId": 6
+    },
+    {
+      "id": 12,
+      "name": "Central Naperville",
+      "cityId": 5
+    },
+    {
+      "id": 13,
+      "name": "North Naperville",
+      "cityId": 5
+    },
+    {
+      "id": 14,
+      "name": "Wriglyville",
+      "cityId": 2
+    },
+    {
+      "id": 15,
+      "name": "North Macon",
+      "cityId": 7
+    },
+    {
+      "id": 16,
+      "name": "South Macon",
+      "cityId": 7
     }
   ],
   "propertyTenants": [],
@@ -288,18 +369,123 @@
       "name": "Speculative"
     }
   ],
-  "randomSiteImages": [
+  "propertyClasses": [
     {
       "id": 1,
-      "imageUrl": "https://www.fortunebuilders.com/wp-content/uploads/2017/09/commercial-real-estate-property-800x533.jpg"
+      "name": "A"
     },
     {
       "id": 2,
-      "imageUrl": "https://www.avisonyoung.us/documents/92392/127818/Nashville-ThinkstockPhotos-588588926.jpg/7b7ac376-bcce-443c-8926-397b1a2aac6a?t=1491942118000"
+      "name": "B"
     },
     {
       "id": 3,
-      "imageUrl": "https://www.mashvisor.com/blog/wp-content/uploads/2019/07/7-Things-You-Need-to-Know-About-Commercial-Real-Estate.jpg"
+      "name": "C"
+    }
+  ],
+  "userNotes": [
+    {
+      "title": "Cool New Property",
+      "userId": 1,
+      "text": "This thing looks like its about to collapse",
+      "location": {
+        "lat": 36.1561581,
+        "lng": -86.7667578
+      },
+      "propertyTypeId": 1,
+      "propertyClassId": 1,
+      "propertyStatusId": 3,
+      "noteDate": 1647062422355,
+      "id": 1
+    },
+    {
+      "title": "Pinewood",
+      "userId": 1,
+      "text": "",
+      "location": {
+        "lat": 36.1584775,
+        "lng": -86.7678137
+      },
+      "propertyTypeId": 1,
+      "propertyClassId": 1,
+      "propertyStatusId": 1,
+      "noteDate": 1647105015376,
+      "noteText": "Lin and I are at Pinewood",
+      "id": 2
+    }
+  ],
+  "propertyTasks": [
+    {
+      "title": "Update Prop Info",
+      "text": "need to update stuff",
+      "dueDate": "2022-03-15",
+      "completed": false,
+      "propertyId": 1,
+      "id": 4
+    },
+    {
+      "title": "Newest due date",
+      "text": "asdfasdafsdsd",
+      "dueDate": "2022-03-14",
+      "completed": true,
+      "propertyId": 1,
+      "id": 5
+    },
+    {
+      "title": "Last due date",
+      "text": "asdfasdf",
+      "dueDate": "2022-03-30",
+      "completed": false,
+      "propertyId": 1,
+      "id": 6
+    },
+    {
+      "title": "Earliest",
+      "text": "asdf",
+      "dueDate": "2022-03-07",
+      "completed": false,
+      "propertyId": 1,
+      "id": 7
+    },
+    {
+      "title": "505 First task",
+      "text": "check stuff",
+      "dueDate": "2022-03-15",
+      "completed": false,
+      "propertyId": 2,
+      "id": 8
+    },
+    {
+      "title": "505 second task",
+      "text": "Create Webscraper",
+      "dueDate": "2022-03-24",
+      "completed": false,
+      "propertyId": 2,
+      "id": 9
+    },
+    {
+      "title": "New Knox Task",
+      "text": "Need to update underwriting",
+      "dueDate": "2022-03-16",
+      "completed": false,
+      "propertyId": 5,
+      "id": 10
+    },
+    {
+      "title": "Building Sale Date",
+      "text": "Seller to close on deal in April",
+      "dueDate": "2022-04-01",
+      "completed": false,
+      "propertyId": 5,
+      "id": 11
+    },
+    {
+      "title": "asdfsdf",
+      "text": "asdfasd",
+      "dueDate": "2022-03-22",
+      "completed": false,
+      "propertyId": 4,
+      "id": 12
     }
   ]
 }
