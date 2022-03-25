@@ -5,21 +5,27 @@
       "address": "115 Middleton Street, 352",
       "email": "wwardrop@gmail.com",
       "id": 1
+    },
+    {
+      "name": "John Smith",
+      "address": "115 Middleton Street, 352",
+      "email": "jsmith@gmail.com",
+      "id": 2
     }
   ],
   "properties": [
     {
-      "name": "Terea",
+      "name": "Terra House",
       "userId": 1,
       "street": "115 Middleton Street",
       "stateId": 1,
       "cityId": 1,
       "zipCode": "37210",
       "neighborhoodId": 1,
-      "avgSF": 0,
+      "avgSF": "",
       "avgRent": 0,
-      "developer": "",
-      "management": "",
+      "developer": "TLC",
+      "management": "RAM Management",
       "totalSF": 0,
       "stories": 0,
       "imageURL": "https://res.cloudinary.com/apartmentlist/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/2284f7c84b65d3c423d58540e528a0e0.jpg",
@@ -47,8 +53,15 @@
       },
       "status": {
         "id": 1,
-        "name": "Under Construction"
-      }
+        "name": "Construction"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "floorplans": true,
+      "units": 197
     },
     {
       "name": "505 Nashville",
@@ -69,12 +82,34 @@
       "industry": "",
       "statusId": 3,
       "occupancy": "90",
-      "units": "500",
+      "floorplans": true,
       "location": {
         "lat": 36.1628036,
         "lng": -86.78037250000001
       },
-      "id": 2
+      "id": 2,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 3,
+        "name": "Completed"
+      }
     },
     {
       "name": "SA Recycling",
@@ -88,19 +123,42 @@
       "avgRent": 0,
       "developer": "SA Recycling",
       "management": "",
-      "totalSF": "200000",
+      "totalSF": "500000",
       "stories": 0,
       "imageURL": "https://lh5.googleusercontent.com/p/AF1QipOTh_j1cEYbIcnMftJJdap7KtilmeqYHeiPmZAj=w408-h306-k-no",
       "typeId": 3,
       "industry": "Recycling",
-      "statusId": 1,
-      "occupancy": 0,
+      "statusId": 3,
+      "occupancy": 90,
       "tenants": "SA Recycling",
       "location": {
         "lat": 36.1644123,
         "lng": -86.7643114
       },
-      "id": 3
+      "id": 3,
+      "type": {
+        "id": 3,
+        "name": "Industrial"
+      },
+      "neighborhood": {
+        "id": 3,
+        "name": "East Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 3,
+        "name": "Completed"
+      },
+      "floorplans": true
     },
     {
       "name": "One22One",
@@ -120,7 +178,7 @@
       "typeId": 2,
       "industry": "",
       "statusId": 4,
-      "occupancy": "40",
+      "occupancy": "80",
       "location": {
         "lat": 36.1560129,
         "lng": -86.78811329999999
@@ -157,18 +215,18 @@
       "cityId": 1,
       "zipCode": 0,
       "neighborhoodId": 1,
-      "avgSF": "600",
-      "avgRent": "1500",
-      "developer": "",
-      "management": "",
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "Knox Development",
+      "management": "Knox Management",
       "totalSF": 0,
       "stories": 0,
       "imageURL": "https://lh5.googleusercontent.com/p/AF1QipM2Zunqp-3aTzg8GlKP_dF7mKdDAdq7c-RxoTTL=w408-h271-k-no",
       "typeId": 1,
       "industry": "",
       "statusId": 1,
-      "occupancy": "100",
-      "units": "300",
+      "occupancy": 0,
+      "floorplans": true,
       "location": {
         "lat": 36.1983009,
         "lng": -86.7986588
@@ -194,7 +252,7 @@
       },
       "status": {
         "id": 1,
-        "name": "Under Construction"
+        "name": "Construction"
       }
     },
     {
@@ -207,20 +265,335 @@
       "neighborhoodId": 1,
       "avgSF": 0,
       "avgRent": 0,
-      "developer": "",
-      "management": "",
-      "totalSF": 0,
+      "developer": "Asurion",
+      "management": "Asurion",
+      "totalSF": 300000,
       "stories": 0,
       "imageURL": "https://media.bizj.us/view/img/12113147/asurion-001*1200xx6016-3384-0-316.jpg",
       "typeId": 2,
       "industry": "",
       "statusId": 1,
-      "occupancy": 0,
+      "occupancy": 100,
       "location": {
         "lat": 36.1595838,
         "lng": -86.78811209999999
       },
       "id": 7
+    },
+    {
+      "name": "Octave",
+      "userId": 1,
+      "street": "2350 8th avenue",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "GBT",
+      "management": "RAM",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1264609,
+        "lng": -86.7768861
+      },
+      "id": 8
+    },
+    {
+      "name": "Flats at Silo Bend",
+      "userId": 1,
+      "street": "1605 54th Ave N",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "Flats Development",
+      "management": "Flats Management",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://southeastventure.com/wp-content/uploads/2021/09/silobend_ext_006_300ppi-scaled.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 4,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1657079,
+        "lng": -86.85414949999999
+      },
+      "id": 9,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 4,
+        "name": "Speculative"
+      },
+      "floorplans": false
+    },
+    {
+      "name": "Top Golf Site",
+      "userId": 1,
+      "street": "500 Cowan Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "Top Golf",
+      "management": "Top Golf Management",
+      "totalSF": "800000",
+      "stories": 0,
+      "imageURL": "https://s3.topgolf.com/gallery/52149/13260_7849_Nashville_Venue-Cowan-01.jpg?resize.width=1600&resize.height=800&resize.method=cover",
+      "typeId": 3,
+      "industry": "",
+      "statusId": 1,
+      "occupancy": 100,
+      "location": {
+        "lat": 36.1780338,
+        "lng": -86.77781689999999
+      },
+      "id": 12,
+      "type": {
+        "id": 3,
+        "name": "Industrial"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 1,
+        "name": "Construction"
+      },
+      "floorplans": true
+    },
+    {
+      "name": "River House",
+      "userId": 1,
+      "street": "4 Academy Pl",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 4,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "MGT",
+      "management": "RAM Management",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://images.squarespace-cdn.com/content/v1/54c00523e4b0f61550c04349/1546975548588-AP47MIEDOSQTCAX8LR33/SGS_RH+12.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 3,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1569358,
+        "lng": -86.7648514
+      },
+      "id": 13,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 4,
+        "name": "Sobro",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 3,
+        "name": "Completed"
+      },
+      "floorplans": true
+    },
+    {
+      "name": "Belcourt Park",
+      "userId": 1,
+      "street": "1710 Belcourt Ave",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 4,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "GBT",
+      "management": "RAM",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2019/05/Belcourt-Park-Nashville-62.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 2,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1367664,
+        "lng": -86.7968066
+      },
+      "id": 14
+    },
+    {
+      "name": "Terra House",
+      "userId": 2,
+      "street": "115 Middleton Street",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": "37210",
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "GBT",
+      "management": "RAM",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/63/63720.png",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 2,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1561782,
+        "lng": -86.76643299999999
+      },
+      "id": 15,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 1,
+        "name": "Downtown Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 2,
+        "name": "Planned"
+      },
+      "floorplans": true
+    },
+    {
+      "name": "Cleo",
+      "userId": 1,
+      "street": "1034 W Eastland Ave",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 3,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "GBT",
+      "management": "Management Co",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "https://hoar.com/wp-content/uploads/2020/02/Cleo_1.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 3,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1829242,
+        "lng": -86.749573
+      },
+      "id": 16,
+      "type": {
+        "id": 1,
+        "name": "Multifamily"
+      },
+      "neighborhood": {
+        "id": 3,
+        "name": "East Nashville",
+        "cityId": 1
+      },
+      "state": {
+        "id": 1,
+        "name": "Tennessee"
+      },
+      "city": {
+        "id": 1,
+        "name": "Nashville",
+        "stateId": 1
+      },
+      "status": {
+        "id": 3,
+        "name": "Completed"
+      },
+      "floorplans": true
+    },
+    {
+      "name": "The Duke",
+      "userId": 1,
+      "street": "281 Cumberland Bend",
+      "stateId": 1,
+      "cityId": 1,
+      "zipCode": 1,
+      "neighborhoodId": 1,
+      "avgSF": 0,
+      "avgRent": 0,
+      "developer": "Duke Dev",
+      "management": "Duke Management",
+      "totalSF": 0,
+      "stories": 0,
+      "imageURL": "http://nashville.selectmyspace.com/wp-content/uploads/2018/07/the-duke-nashville-nashville-tn-building-photo.jpg",
+      "typeId": 1,
+      "industry": "",
+      "statusId": 3,
+      "occupancy": 0,
+      "location": {
+        "lat": 36.1925183,
+        "lng": -86.78966369999999
+      },
+      "id": 17
     }
   ],
   "types": [
@@ -375,11 +748,30 @@
       "cityId": 7
     }
   ],
-  "propertyTenants": [],
+  "commercialPropertyTenants": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "tenantId": 1
+    }
+  ],
+  "commercialTenants": [
+    {
+      "id": 1,
+      "name": "",
+      "industryId": 1
+    }
+  ],
+  "industries": [
+    {
+      "id": 1,
+      "name": ""
+    }
+  ],
   "statuses": [
     {
       "id": 1,
-      "name": "Under Construction"
+      "name": "Construction"
     },
     {
       "id": 2,
@@ -392,6 +784,10 @@
     {
       "id": 4,
       "name": "Speculative"
+    },
+    {
+      "id": 5,
+      "name": "Lease Up"
     }
   ],
   "propertyClasses": [
@@ -410,20 +806,6 @@
   ],
   "userNotes": [
     {
-      "title": "Cool New Property",
-      "userId": 1,
-      "text": "This thing looks like its about to collapse",
-      "location": {
-        "lat": 36.1561581,
-        "lng": -86.7667578
-      },
-      "propertyTypeId": 1,
-      "propertyClassId": 1,
-      "propertyStatusId": 3,
-      "noteDate": 1647062422355,
-      "id": 1
-    },
-    {
       "title": "Pinewood",
       "userId": 1,
       "text": "",
@@ -441,76 +823,13 @@
   ],
   "propertyTasks": [
     {
-      "title": "Update Prop Info",
-      "text": "need to update stuff",
-      "dueDate": "2022-03-15",
-      "completed": false,
-      "propertyId": 1,
-      "id": 4
-    },
-    {
-      "title": "Newest due date",
-      "text": "asdfasdafsdsd",
-      "dueDate": "2022-03-14",
-      "completed": true,
-      "propertyId": 1,
-      "id": 5
-    },
-    {
-      "title": "Last due date",
-      "text": "asdfasdf",
-      "dueDate": "2022-03-30",
-      "completed": false,
-      "propertyId": 1,
-      "id": 6
-    },
-    {
-      "title": "Earliest",
-      "text": "asdf",
-      "dueDate": "2022-03-07",
-      "completed": false,
-      "propertyId": 1,
-      "id": 7
-    },
-    {
-      "title": "505 First task",
-      "text": "check stuff",
-      "dueDate": "2022-03-15",
-      "completed": false,
-      "propertyId": 2,
-      "id": 8
-    },
-    {
-      "title": "505 second task",
-      "text": "Create Webscraper",
-      "dueDate": "2022-03-24",
-      "completed": false,
-      "propertyId": 2,
-      "id": 9
-    },
-    {
-      "title": "New Knox Task",
-      "text": "Need to update underwriting",
-      "dueDate": "2022-03-16",
-      "completed": false,
-      "propertyId": 5,
-      "id": 10
-    },
-    {
       "title": "Building Sale Date",
       "text": "Seller to close on deal in April",
       "dueDate": "2022-04-01",
       "completed": false,
       "propertyId": 5,
+      "userId": 1,
       "id": 11
-    },
-    {
-      "title": "asdfsdf",
-      "text": "asdfasd",
-      "dueDate": "2022-03-22",
-      "completed": false,
-      "propertyId": 4,
-      "id": 12
     },
     {
       "title": "First Asurion Note",
@@ -518,7 +837,725 @@
       "dueDate": "2022-03-19",
       "completed": false,
       "propertyId": 7,
+      "userId": 1,
       "id": 13
+    },
+    {
+      "title": "First RH Task",
+      "text": "Create Rent Adding Feature",
+      "dueDate": "2022-03-22",
+      "completed": false,
+      "userId": 1,
+      "propertyId": 13,
+      "id": 18
+    },
+    {
+      "title": "New Tera Task",
+      "text": "asdja;dsglads",
+      "dueDate": "2022-03-24",
+      "completed": false,
+      "userId": 2,
+      "propertyId": 15,
+      "id": 21
+    },
+    {
+      "title": "asdgag",
+      "text": "asdfadsafs",
+      "dueDate": "2022-03-24",
+      "completed": false,
+      "userId": 2,
+      "propertyId": 15,
+      "id": 22
+    },
+    {
+      "title": "third one",
+      "text": "asdfasasdf",
+      "dueDate": "2022-04-08",
+      "completed": false,
+      "userId": 2,
+      "propertyId": 15,
+      "id": 23
+    },
+    {
+      "title": "Continue Recycling",
+      "text": "Recycling is good",
+      "dueDate": "2022-03-31",
+      "completed": false,
+      "userId": 1,
+      "propertyId": 3,
+      "id": 24
+    },
+    {
+      "title": "Talk to Property Owner",
+      "text": "His number is....",
+      "dueDate": "2022-03-26",
+      "completed": false,
+      "userId": 1,
+      "propertyId": 3,
+      "id": 25
+    }
+  ],
+  "MFPropertyFloorplans": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "sizeId": 1,
+      "units": 200,
+      "avgSF": 700,
+      "active": true
+    },
+    {
+      "id": 2,
+      "propertyId": 1,
+      "sizeId": 2,
+      "units": 150,
+      "avgSF": 1000,
+      "active": true
+    },
+    {
+      "id": 3,
+      "propertyId": 1,
+      "sizeId": 3,
+      "units": 0,
+      "avgSF": 0,
+      "active": false
+    },
+    {
+      "id": 4,
+      "propertyId": 1,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false
+    },
+    {
+      "propertyId": 2,
+      "sizeId": 1,
+      "units": 275,
+      "avgSF": 780,
+      "active": true,
+      "AvgSF": 3,
+      "id": 5
+    },
+    {
+      "propertyId": 2,
+      "sizeId": 2,
+      "units": 100,
+      "avgSF": 1300,
+      "active": true,
+      "id": 6
+    },
+    {
+      "propertyId": 2,
+      "sizeId": 3,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 7
+    },
+    {
+      "propertyId": 2,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 8
+    },
+    {
+      "propertyId": 13,
+      "sizeId": 1,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 9
+    },
+    {
+      "propertyId": 13,
+      "sizeId": 2,
+      "units": 150,
+      "avgSF": 900,
+      "active": true,
+      "id": 10
+    },
+    {
+      "propertyId": 13,
+      "sizeId": 3,
+      "units": 130,
+      "avgSF": 1050,
+      "active": true,
+      "id": 11
+    },
+    {
+      "propertyId": 13,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 12
+    },
+    {
+      "propertyId": 5,
+      "sizeId": 1,
+      "units": 150,
+      "avgSF": 900,
+      "active": true,
+      "id": 13
+    },
+    {
+      "propertyId": 5,
+      "sizeId": 2,
+      "units": 100,
+      "avgSF": 1100,
+      "active": true,
+      "id": 14
+    },
+    {
+      "propertyId": 5,
+      "sizeId": 3,
+      "units": 50,
+      "avgSF": 1500,
+      "active": true,
+      "id": 15
+    },
+    {
+      "propertyId": 5,
+      "sizeId": 4,
+      "units": 25,
+      "avgSF": 2000,
+      "active": true,
+      "id": 16
+    },
+    {
+      "propertyId": 15,
+      "sizeId": 1,
+      "units": 150,
+      "avgSF": 900,
+      "active": true,
+      "id": 17
+    },
+    {
+      "propertyId": 15,
+      "sizeId": 2,
+      "units": 200,
+      "avgSF": 1200,
+      "active": true,
+      "id": 18
+    },
+    {
+      "propertyId": 15,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 19
+    },
+    {
+      "propertyId": 15,
+      "sizeId": 3,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 20
+    },
+    {
+      "propertyId": 16,
+      "sizeId": 1,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 21
+    },
+    {
+      "propertyId": 16,
+      "sizeId": 2,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 22
+    },
+    {
+      "propertyId": 16,
+      "sizeId": 4,
+      "units": 230,
+      "avgSF": 1500,
+      "active": true,
+      "id": 23
+    },
+    {
+      "propertyId": 16,
+      "sizeId": 3,
+      "units": 120,
+      "avgSF": 1300,
+      "active": true,
+      "id": 24
+    },
+    {
+      "propertyId": 3,
+      "sizeId": 1,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 25
+    },
+    {
+      "propertyId": 3,
+      "sizeId": 2,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 26
+    },
+    {
+      "propertyId": 3,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 27
+    },
+    {
+      "propertyId": 3,
+      "sizeId": 3,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 28
+    },
+    {
+      "propertyId": 12,
+      "sizeId": 1,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 29
+    },
+    {
+      "propertyId": 12,
+      "sizeId": 2,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 30
+    },
+    {
+      "propertyId": 12,
+      "sizeId": 4,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 31
+    },
+    {
+      "propertyId": 12,
+      "sizeId": 3,
+      "units": 0,
+      "avgSF": 0,
+      "active": false,
+      "id": 32
+    }
+  ],
+  "MFUnitSizes": [
+    {
+      "id": 1,
+      "name": "Studio"
+    },
+    {
+      "id": 2,
+      "name": "1 Bedroom"
+    },
+    {
+      "id": 3,
+      "name": "2 Bedroom"
+    },
+    {
+      "id": 4,
+      "name": "3 Bedroom"
+    }
+  ],
+  "MFUnitRents": [
+    {
+      "propertyFloorplanId": 5,
+      "date": "2022-03-24",
+      "rent": 1500,
+      "occupancy": 90,
+      "active": true,
+      "id": 17
+    },
+    {
+      "propertyFloorplanId": 6,
+      "date": "2022-03-24",
+      "rent": 2000,
+      "occupancy": 89,
+      "active": true,
+      "id": 18
+    },
+    {
+      "propertyFloorplanId": 7,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 19
+    },
+    {
+      "propertyFloorplanId": 8,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 20
+    },
+    {
+      "propertyFloorplanId": 1,
+      "date": "2022-04-01",
+      "rent": 1500,
+      "occupancy": 90,
+      "active": true,
+      "id": 21
+    },
+    {
+      "propertyFloorplanId": 4,
+      "date": "2022-04-01",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 22
+    },
+    {
+      "propertyFloorplanId": 3,
+      "date": "2022-04-01",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 23
+    },
+    {
+      "propertyFloorplanId": 2,
+      "date": "2022-04-01",
+      "rent": 2000,
+      "occupancy": 75,
+      "active": true,
+      "id": 24
+    },
+    {
+      "propertyFloorplanId": 1,
+      "date": "2022-04-02",
+      "rent": 1600,
+      "occupancy": 90,
+      "active": true,
+      "id": 25
+    },
+    {
+      "propertyFloorplanId": 2,
+      "date": "2022-04-02",
+      "rent": 1900,
+      "occupancy": 80,
+      "active": true,
+      "id": 26
+    },
+    {
+      "propertyFloorplanId": 3,
+      "date": "2022-04-02",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 27
+    },
+    {
+      "propertyFloorplanId": 4,
+      "date": "2022-04-02",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 28
+    },
+    {
+      "propertyFloorplanId": 10,
+      "date": "2022-03-24",
+      "rent": 1900,
+      "occupancy": 90,
+      "active": true,
+      "id": 29
+    },
+    {
+      "propertyFloorplanId": 9,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 30
+    },
+    {
+      "propertyFloorplanId": 11,
+      "date": "2022-03-24",
+      "rent": 2100,
+      "occupancy": 100,
+      "active": true,
+      "id": 31
+    },
+    {
+      "propertyFloorplanId": 12,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 32
+    },
+    {
+      "propertyFloorplanId": 13,
+      "date": "2022-03-24",
+      "rent": 1000,
+      "occupancy": 90,
+      "active": true,
+      "id": 33
+    },
+    {
+      "propertyFloorplanId": 14,
+      "date": "2022-03-24",
+      "rent": 1900,
+      "occupancy": 89,
+      "active": true,
+      "id": 34
+    },
+    {
+      "propertyFloorplanId": 15,
+      "date": "2022-03-24",
+      "rent": 3500,
+      "occupancy": 59,
+      "active": true,
+      "id": 35
+    },
+    {
+      "propertyFloorplanId": 16,
+      "date": "2022-03-24",
+      "rent": 6000,
+      "occupancy": 60,
+      "active": true,
+      "id": 36
+    },
+    {
+      "propertyFloorplanId": 17,
+      "date": "2022-03-24",
+      "rent": 1900,
+      "occupancy": 90,
+      "active": true,
+      "id": 37
+    },
+    {
+      "propertyFloorplanId": 18,
+      "date": "2022-03-24",
+      "rent": 2200,
+      "occupancy": 75,
+      "active": true,
+      "id": 38
+    },
+    {
+      "propertyFloorplanId": 19,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 39
+    },
+    {
+      "propertyFloorplanId": 20,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 40
+    },
+    {
+      "propertyFloorplanId": 17,
+      "date": "2022-03-21",
+      "rent": 1700,
+      "occupancy": 70,
+      "active": true,
+      "id": 41
+    },
+    {
+      "propertyFloorplanId": 18,
+      "date": "2022-03-21",
+      "rent": 2000,
+      "occupancy": 45,
+      "active": true,
+      "id": 42
+    },
+    {
+      "propertyFloorplanId": 19,
+      "date": "2022-03-21",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 43
+    },
+    {
+      "propertyFloorplanId": 20,
+      "date": "2022-03-21",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 44
+    },
+    {
+      "propertyFloorplanId": 5,
+      "date": "2022-04-08",
+      "rent": 2000,
+      "occupancy": 80,
+      "active": true,
+      "id": 45
+    },
+    {
+      "propertyFloorplanId": 6,
+      "date": "2022-04-08",
+      "rent": 3000,
+      "occupancy": 90,
+      "active": true,
+      "id": 46
+    },
+    {
+      "propertyFloorplanId": 7,
+      "date": "2022-04-08",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 47
+    },
+    {
+      "propertyFloorplanId": 8,
+      "date": "2022-04-08",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 48
+    },
+    {
+      "propertyFloorplanId": 13,
+      "date": "2022-04-08",
+      "rent": 1000,
+      "occupancy": 80,
+      "active": true,
+      "id": 49
+    },
+    {
+      "propertyFloorplanId": 14,
+      "date": "2022-04-08",
+      "rent": 1200,
+      "occupancy": 90,
+      "active": true,
+      "id": 50
+    },
+    {
+      "propertyFloorplanId": 15,
+      "date": "2022-04-08",
+      "rent": 1400,
+      "occupancy": 90,
+      "active": true,
+      "id": 51
+    },
+    {
+      "propertyFloorplanId": 16,
+      "date": "2022-04-08",
+      "rent": 1500,
+      "occupancy": 40,
+      "active": true,
+      "id": 52
+    },
+    {
+      "propertyFloorplanId": 1,
+      "date": "2022-03-27",
+      "rent": 2000,
+      "occupancy": 89,
+      "active": true,
+      "id": 53
+    },
+    {
+      "propertyFloorplanId": 2,
+      "date": "2022-03-27",
+      "rent": 2500,
+      "occupancy": 80,
+      "active": true,
+      "id": 54
+    },
+    {
+      "propertyFloorplanId": 3,
+      "date": "2022-03-27",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 55
+    },
+    {
+      "propertyFloorplanId": 4,
+      "date": "2022-03-27",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 56
+    },
+    {
+      "propertyFloorplanId": 1,
+      "date": "2022-03-03",
+      "rent": 2000,
+      "occupancy": 90,
+      "active": true,
+      "id": 57
+    },
+    {
+      "propertyFloorplanId": 2,
+      "date": "2022-03-03",
+      "rent": 4000,
+      "occupancy": 80,
+      "active": true,
+      "id": 58
+    },
+    {
+      "propertyFloorplanId": 3,
+      "date": "2022-03-03",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 59
+    },
+    {
+      "propertyFloorplanId": 4,
+      "date": "2022-03-03",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 60
+    },
+    {
+      "propertyFloorplanId": 21,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 61
+    },
+    {
+      "propertyFloorplanId": 23,
+      "date": "2022-03-24",
+      "rent": 2500,
+      "occupancy": 80,
+      "active": true,
+      "id": 62
+    },
+    {
+      "propertyFloorplanId": 22,
+      "date": "2022-03-24",
+      "rent": "",
+      "occupancy": "",
+      "active": false,
+      "id": 63
+    },
+    {
+      "propertyFloorplanId": 24,
+      "date": "2022-03-24",
+      "rent": 3500,
+      "occupancy": 100,
+      "active": true,
+      "id": 64
     }
   ]
 }
