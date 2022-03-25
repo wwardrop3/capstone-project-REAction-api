@@ -3,13 +3,13 @@
     {
       "name": "Will Wardrop",
       "address": "115 Middleton Street, 352",
-      "email": "wwardrop@gmail.com",
+      "username": "wilbur@wilbur.com",
       "id": 1
     },
     {
       "name": "John Smith",
       "address": "115 Middleton Street, 352",
-      "email": "jsmith@gmail.com",
+      "username": "jsmith@gmail.com",
       "id": 2
     }
   ],
